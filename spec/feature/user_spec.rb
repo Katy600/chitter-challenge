@@ -1,5 +1,6 @@
 # require_relative '../spec_helper'
-# require_relative '../app/models/user'
+
+require './app/models/user'
 require 'spec_helper'
 
 feature 'sign up form' do

@@ -16,6 +16,6 @@ class Chitter < Sinatra::Base
                 password: params[:password],
                 name: params[:name],
                 username: params[:username])
-    redirect "/sign-up"
+    redirect "/profile"
   end
 end

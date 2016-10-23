@@ -2,26 +2,31 @@
 
 <form action="/sign-up" method="post">
     <div>
-        <label for="name"
-        Name:<input type="text" name="name" />
+        <label for="name">
+        Name:<input type="text" name="name">
         </label>
     </div>
     <div>
-        <label for="user name"
-        User Name: <input type="text" name="user_message"/>
+        <label for="user name">
+        User Name: <input type="text" name="user_name">
         </label>
     </div>
     <div>
-        <label for="mail"
-        Email:<input type="email" name="user_mail" />
+        <label for="email">
+        Email:<input type="email" name="email">
         </label>
     </div>
     <div>
         <label for="password">
-        <input type="password" name="password" />
+        <input type="password" name="password">
         </label>
     </div>
-    <div class="button">
-        <button type="submit" value='Submit'</button>
+    <div>
+        <label for="password_confirmation">
+        <input type="password" name="password_confirmation">
+        </label>
+    </div>
+      <div>
+        <input type="submit" value='Sign up'>
     </div>
 </form>
